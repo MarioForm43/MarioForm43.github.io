@@ -5,7 +5,7 @@ export class CtrlSaludo {
     if(!nombreSinEspacios) {
       throw new Error ("Falta proporcionar el nombre");
     }
-    return 'Hola ${nombreSinEspacios}.';
+    return `Hola ${nombreSinEspacios}.`;
   }
 }
   
